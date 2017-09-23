@@ -118,6 +118,7 @@ div[class*=wrapperHoveredCollapsed-] > div[class*=nameUnread-]:after {
   margin: 0 5px;
 }
 
-div[class*=container-] > div[class*=containerDefault-]:first-child {
+div[class*=container-] > div[class*=containerDefault-]:first-child,
+div[class*=container-] > div[class*=containerDragAfter-]:first-child {
   padding: 5px;
 }
