@@ -33,17 +33,7 @@ div[class*=wrapperHoveredCollapsed-] > div[class*=nameUnread-] {
   opacity: 0.3;
   transition: .2s opacity ease-in-out;
 }
-div[class*=container-] > div[class*=containerDefault-]:first-child {
-  padding: 5px;
-}
-div[class*=wrapperDefault-],
-div[class*=wrapperHovered-],
-div[class*=wrapperDefault-],
-div[class*=wrapperHoveredCollapsed-] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 div[class*=wrapperDefault-] > div[class*=nameCollapsed-]:hover,
 div[class*=wrapperDefault-] > div[class*=nameDefault-]:hover,
 div[class*=wrapperDefault-] > div[class*=nameHovered-]:hover,
@@ -70,38 +60,55 @@ div[class*=wrapperHoveredCollapsed-] > div[class*=nameMuted-]:hover,
 div[class*=wrapperHoveredCollapsed-] > div[class*=nameUnread-]:hover {
   opacity: 0.8;
 }
-div[class*=wrapperDefault-] > div[class*=nameDefault-]:after,
-div[class*=wrapperDefault-] > div[class*=nameDefault-]:before,
-div[class*=wrapperDefault-] > div[class*=nameHovered-]:after,
-div[class*=wrapperDefault-] > div[class*=nameHovered-]:before,
-div[class*=wrapperDefault-] > div[class*=nameCollapsed-]:after,
+
 div[class*=wrapperDefault-] > div[class*=nameCollapsed-]:before,
-div[class*=wrapperDefault-] > div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperDefault-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperDefault-] > div[class*=nameDefault-]:before,
+div[class*=wrapperDefault-] > div[class*=nameDefault-]:after,
+div[class*=wrapperDefault-] > div[class*=nameHovered-]:before,
+div[class*=wrapperDefault-] > div[class*=nameHovered-]:after,
 div[class*=wrapperDefault-] > div[class*=nameHoveredCollapsed-]:before,
-div[class*=wrapperCollapsed-] > div[class*=nameDefault-]:after,
-div[class*=wrapperCollapsed-] > div[class*=nameDefault-]:before,
-div[class*=wrapperCollapsed-] > div[class*=nameHovered-]:after,
-div[class*=wrapperCollapsed-] > div[class*=nameHovered-]:before,
-div[class*=wrapperCollapsed-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperDefault-] > div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperDefault-] > div[class*=nameMuted-]:before,
+div[class*=wrapperDefault-] > div[class*=nameMuted-]:after,
+div[class*=wrapperDefault-] > div[class*=nameUnread-]:before,
+div[class*=wrapperDefault-] > div[class*=nameUnread-]:after,
 div[class*=wrapperCollapsed-] > div[class*=nameCollapsed-]:before,
-div[class*=wrapperCollapsed-] > div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperCollapsed-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperCollapsed-] > div[class*=nameDefault-]:before,
+div[class*=wrapperCollapsed-] > div[class*=nameDefault-]:after,
+div[class*=wrapperCollapsed-] > div[class*=nameHovered-]:before,
+div[class*=wrapperCollapsed-] > div[class*=nameHovered-]:after,
 div[class*=wrapperCollapsed-] > div[class*=nameHoveredCollapsed-]:before,
-div[class*=wrapperHovered-] > div[class*=nameDefault-]:after,
-div[class*=wrapperHovered-] > div[class*=nameDefault-]:before,
-div[class*=wrapperHovered-] > div[class*=nameHovered-]:after,
-div[class*=wrapperHovered-] > div[class*=nameHovered-]:before,
-div[class*=wrapperHovered-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperCollapsed-] > div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperCollapsed-] > div[class*=nameMuted-]:before,
+div[class*=wrapperCollapsed-] > div[class*=nameMuted-]:after,
+div[class*=wrapperCollapsed-] > div[class*=nameUnread-]:before,
+div[class*=wrapperCollapsed-] > div[class*=nameUnread-]:after,
 div[class*=wrapperHovered-] > div[class*=nameCollapsed-]:before,
-div[class*=wrapperHovered-] > div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperHovered-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperHovered-] > div[class*=nameDefault-]:before,
+div[class*=wrapperHovered-] > div[class*=nameDefault-]:after,
+div[class*=wrapperHovered-] > div[class*=nameHovered-]:before,
+div[class*=wrapperHovered-] > div[class*=nameHovered-]:after,
 div[class*=wrapperHovered-] > div[class*=nameHoveredCollapsed-]:before,
-div[class*=wrapperHoveredCollapsed-] > div[class*=nameDefault-]:after,
-div[class*=wrapperHoveredCollapsed-] > div[class*=nameDefault-]:before,
-div[class*=wrapperHoveredCollapsed-] > div[class*=nameHovered-]:after,
-div[class*=wrapperHoveredCollapsed-] > div[class*=nameHovered-]:before,
-div[class*=wrapperHoveredCollapsed-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperHovered-] > div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperHovered-] > div[class*=nameMuted-]:before,
+div[class*=wrapperHovered-] > div[class*=nameMuted-]:after,
+div[class*=wrapperHovered-] > div[class*=nameUnread-]:before,
+div[class*=wrapperHovered-] > div[class*=nameUnread-]:after,
 div[class*=wrapperHoveredCollapsed-] > div[class*=nameCollapsed-]:before,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameCollapsed-]:after,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameDefault-]:before,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameDefault-]:after,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameHovered-]:before,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameHovered-]:after,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameHoveredCollapsed-]:before,
 div[class*=wrapperHoveredCollapsed-] > div[class*=nameHoveredCollapsed-]:after,
-div[class*=wrapperHoveredCollapsed-] > div[class*=nameHoveredCollapsed-]:before {
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameMuted-]:before,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameMuted-]:after,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameUnread-]:before,
+div[class*=wrapperHoveredCollapsed-] > div[class*=nameUnread-]:after {
   content: "";
   width: 100%;
   vertical-align: middle;
@@ -109,4 +116,8 @@ div[class*=wrapperHoveredCollapsed-] > div[class*=nameHoveredCollapsed-]:before 
   background: #eee;
   display: inline-block;
   margin: 0 5px;
+}
+
+div[class*=container-] > div[class*=containerDefault-]:first-child {
+  padding: 5px;
 }

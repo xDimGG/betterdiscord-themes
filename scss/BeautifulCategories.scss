@@ -1,0 +1,36 @@
+div[class*=wrapperDefault-],
+div[class*=wrapperCollapsed-],
+div[class*=wrapperHovered-],
+div[class*=wrapperHoveredCollapsed-] {
+  & > div[class*=nameCollapsed-],
+  & > div[class*=nameDefault-],
+  & > div[class*=nameHovered-],
+  & > div[class*=nameHoveredCollapsed-],
+  & > div[class*=nameMuted-],
+  & > div[class*=nameUnread-] {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+    opacity: 0.3;
+    transition: .2s opacity ease-in-out;
+    &:hover {
+      opacity: 0.8;
+    }
+    &:before, &:after {
+      content: "";
+      width: 100%;
+      vertical-align: middle;
+      height: 1px;
+      background: #eee;
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+}
+
+div[class*=container-] > div[class*=containerDefault-]:first-child {
+  padding: 5px;
+}
