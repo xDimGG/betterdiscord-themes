@@ -1,4 +1,4 @@
-.channels-wrap div[class*=wrapper] > div[class*=name] {
+div[class^=container-] div[class*=wrapper] > div[class*=name] {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -24,7 +24,4 @@
 
 div[class^=container-] div[class*=container]:first-child {
   padding: 5px;
-  & svg[class*=icon]:first-child {
-    display: none;
-  }
 }

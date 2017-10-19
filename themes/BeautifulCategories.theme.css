@@ -1,6 +1,6 @@
-//META{"author":"lloti","name":"Beautiful Categories","description":"Adds lines to the left and right of categories by github.com/lloti","version":"1.0"}*//
+//META{"author":"lloti","name":"Beautiful Categories","description":"Adds lines to the left and right of categories by github.com/lloti","version":"1.1"}*//
 
-.channels-wrap div[class*=wrapper] > div[class*=name] {
+div[class^=container-] div[class*=wrapper] > div[class*=name] {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -10,10 +10,12 @@
   opacity: 0.3;
   transition: .2s opacity ease-in-out;
 }
-.channels-wrap div[class*=wrapper] > div[class*=name]:hover {
+
+div[class^=container-] div[class*=wrapper] > div[class*=name]:hover {
   opacity: 0.8;
 }
-.channels-wrap div[class*=wrapper] > div[class*=name]:before, .channels-wrap div[class*=wrapper] > div[class*=name]:after {
+
+div[class^=container-] div[class*=wrapper] > div[class*=name]:before, div[class^=container-] div[class*=wrapper] > div[class*=name]:after {
   content: "";
   width: 100%;
   vertical-align: middle;
@@ -25,7 +27,4 @@
 
 div[class^=container-] div[class*=container]:first-child {
   padding: 5px;
-}
-div[class^=container-] div[class*=container]:first-child > div > svg[class*=icon]:first-child {
-  display: none;
 }
